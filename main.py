@@ -3,6 +3,7 @@ import type_num as ty
 import function_comp_num as fc
 
 
+
 type = ty.type()
 
 while type =='rational':
@@ -23,3 +24,5 @@ if type == 'complex':
         else:
             fc.rec_in_file(fc.division(fc.take_rational_part(operands[0]),  fc.take_symbol(operands[0]), fc.take_imaginary_part(operands[0]), fc.take_rational_part(operands[1]), fc.take_symbol(operands[1]), fc.take_imaginary_part(operands[1])))
         repeat = fc.repeat_or_no()
+
+     
